@@ -13,7 +13,7 @@ This project demonstrates securing a cloud environment using **Azure Security Ce
 ---
 
 ## 🗄️ Sample Sensitive Data:
-The included `Salesforce_Accounts_Import.csv` represents sample customer data that must be **protected**. This emphasizes the need for:
+The included `Salesforce_Accounts_Import.csv` represents customer data that must be **protected**. This emphasizes the need for:
 - **Access control** using Azure Security Center policies.
 - **Threat detection** in case of unauthorized access via Azure Sentinel.
 
@@ -37,14 +37,14 @@ Guide: [Setup Security Center](setup_security_center.md)
 - Activate **Azure Sentinel** with a **Log Analytics Workspace**.
 - Connect **Azure Activity**, **Azure AD**, and **Security Center** as data sources.
 - Enable **Data Exfiltration Detection** and **Suspicious User Activity** analytics rules.
-- Investigate and respond to alerts (e.g., unauthorized access to Salesforce data).
+- Investigate and respond to alerts (unauthorized access to Salesforce data).
 
 Guide: [Setup Azure Sentinel](setup_azure_sentinel.md)
 
 ---
 
 ### 3️⃣ **Data Protection Policy**
-- Establish a **Data Protection Policy** for customer data (e.g., Salesforce):
+- Establish a **Data Protection Policy** for customer data (Salesforce):
   - Data classification (sensitive, confidential).
   - Access control & least privilege.
   - Logging and auditing access to customer data.
