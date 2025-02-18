@@ -1,7 +1,7 @@
 # 🛡️ Securing an Environment with Azure Security Center & Azure Sentinel
 
 ## 📄 Overview
-This project demonstrates securing a cloud environment using **Azure Security Center** and **Azure Sentinel**. It simulates protecting customer data (e.g., Salesforce accounts) and detecting security incidents in Azure.
+This project demonstrates securing a cloud environment using **Azure Security Center** and **Azure Sentinel**. It simulates protecting customer data (Salesforce accounts) and detecting security incidents in Azure.
 
 ---
 
