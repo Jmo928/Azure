@@ -53,7 +53,7 @@ Policy: [Data Protection Policy](data_protection_policy.md)
 
 ---
 
-## ⚙️ Sample Incident Analysis Script – `security_incident_analysis.py`
+## ⚙️ Incident Analysis Script – `security_incident_analysis.py`
 ```python
 import pandas as pd
 
